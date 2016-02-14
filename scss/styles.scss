@@ -1,10 +1,22 @@
+html{
+  background-color: rgb(51, 61, 77);
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+}
+
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 main {
   height: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 @mixin responsive-bg-image($image-width, $image-height) {
@@ -15,8 +27,8 @@ main {
 }
 
 
-.oceanImage {
-  background-image: url('../Images/OceanImage_02.png');
+.headerImage {
+  background-image: url('../Images/LA_background.png');
   background-repeat: no-repeat;
   @include responsive-bg-image(204, 81);
 }
