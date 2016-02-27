@@ -28,4 +28,7 @@ main {
   background-color: white;
   color: #333d4d; }
 
+.project {
+  display: flex; }
+
 /*# sourceMappingURL=styles.css.map */
