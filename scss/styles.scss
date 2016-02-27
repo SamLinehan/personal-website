@@ -28,7 +28,12 @@ main {
 
 
 .headerImage {
-  background-image: url('../Images/LA_background.png');
+  background-image: url('../Images/OceanImage_02.png');
   background-repeat: no-repeat;
   @include responsive-bg-image(204, 81);
+}
+
+.projectSection {
+  background-color: white;
+  color: rgb(51, 61, 77);
 }
