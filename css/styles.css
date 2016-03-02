@@ -25,7 +25,8 @@ html {
     color: #333d4d; }
   html .project {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    height: 33%; }
   html figure img {
     width: 50%;
     height: 50%; }
