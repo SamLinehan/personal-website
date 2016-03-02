@@ -24,6 +24,10 @@ html {
     background-color: white;
     color: #333d4d; }
   html .project {
-    display: flex; }
+    display: flex;
+    align-items: center; }
+  html figure img {
+    width: 50%;
+    height: 50%; }
 
 /*# sourceMappingURL=styles.css.map */

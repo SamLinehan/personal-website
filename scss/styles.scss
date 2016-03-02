@@ -35,5 +35,11 @@ html{
 
   .project {
     display: flex;
+    align-items: center;
+  }
+
+  figure img{
+    width: 50%;
+    height: 50%;
   }
 }
