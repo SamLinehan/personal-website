@@ -9,6 +9,10 @@ html {
     align-items: center;
     margin-left: 5%;
     margin-right: 5%; }
+    html nav .headLink {
+      border-bottom: 1px solid white;
+      cursor: pointer;
+      transition: all ease-in-out 1s; }
   html main {
     height: 1000px;
     margin-left: 10%;
@@ -21,13 +25,16 @@ html {
     padding-bottom: 39.70588%;
     display: block; }
   html .projectSection {
-    background-color: white;
-    color: #333d4d; }
+    color: white; }
   html .project {
     display: flex;
-    align-items: center;
     height: 33%; }
-  html figure img {
+  html .projectInfo {
+    background-color: white;
+    color: #333d4d;
+    width: 50%;
+    height: 50%; }
+  html img {
     width: 50%;
     height: 50%; }
 

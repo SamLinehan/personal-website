@@ -16,6 +16,11 @@ html{
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    .headLink {
+      border-bottom: 1px solid white;
+      cursor: pointer;
+      transition: all ease-in-out 1s;
+    }
   }
   main {
     height: 1000px;
@@ -29,17 +34,21 @@ html{
   }
 
   .projectSection {
-    background-color: white;
-    color: rgb(51, 61, 77);
+    color: white;
   }
 
   .project {
     display: flex;
-    align-items: center;
     height: 33%;
   }
 
-  figure img{
+  .projectInfo {
+    background-color: white;
+    color: rgb(51, 61, 77);
+    width: 50%;
+    height: 50%;
+  }
+  img{
     width: 50%;
     height: 50%;
   }
