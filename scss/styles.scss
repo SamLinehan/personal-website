@@ -82,6 +82,13 @@ html{
       width: 300px;
       align-items: center;
       justify-content: space-around;
+      a:visited {
+        color: white;
+      }
+      a:hover {
+        cursor: pointer;
+        opacity: 0.5;
+      }
     }
   }
 
