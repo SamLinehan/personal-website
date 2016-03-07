@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="portfolio">
   <head>
     <meta charset="utf-8">
     <title>Sam Linehan</title>
@@ -19,7 +19,7 @@
     <main>
       <img class="headImage" src="./Images/new_ocean_pic.png" alt="Crane Beach" />
       <!-- <section class="headerImage"></section> -->
-      <section class="projectSection">
+      <section id="#portfolio" class="projectSection">
         <h2>Portfolio</h2>
         <div class="project">
           <article class="projectInfo projectElement">
@@ -64,13 +64,14 @@
       <section class="contact">
         <h2>Contact</h2>
         <p><strong>Sam Linehan</strong></p>
-        <p>Austin, Texas</p>
+        <p>Austin, Texas 78704</p>
         <p>samuel.linehan15@gmail.com</p>
         <a href="https://www.linkedin.com/in/samuellinehan"><i class="fa fa-linkedin-square fa-3x"></i></a>
       </section>
     </main>
     <footer></footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+    <script src="./app/main.js"></script>
   </body>
 </html>
