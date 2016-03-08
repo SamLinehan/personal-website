@@ -37,9 +37,12 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    h1 {
+    div {
       padding-top: 40%;
       color: rgb(254, 252, 246);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 
@@ -58,6 +61,11 @@ html{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    @media(max-width: 1000px){
+      .projectInfo {
+        display: none;
+      }
+    }
   }
 
   .projectInfo {

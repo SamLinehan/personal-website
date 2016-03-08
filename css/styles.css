@@ -28,9 +28,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center; }
-    html .headerImage h1 {
+    html .headerImage div {
       padding-top: 40%;
-      color: #fefcf6; }
+      color: #fefcf6;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
   html main {
     height: 1000px;
     margin-left: 10%;
@@ -42,6 +45,9 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
+    @media (max-width: 1000px) {
+      html .project .projectInfo {
+        display: none; } }
   html .projectInfo {
     display: flex;
     flex-direction: column;
