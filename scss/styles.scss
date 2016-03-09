@@ -7,7 +7,8 @@
 
 html{
   background-color: rgb(254, 252, 246);
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: .05em;
   color: rgb(51, 61, 77);
   body{
     margin-top: 0;
@@ -93,7 +94,7 @@ html{
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
+    color: rgb(254, 252, 246);
     background-color: rgb(51, 61, 77);
     width: 450px;
     height: 450px;
@@ -103,7 +104,7 @@ html{
       text-decoration: none;
     }
     .detailLink:visited {
-      color: white;
+      color: rgb(254, 252, 246);
     }
     div{
       display: flex;
@@ -112,7 +113,7 @@ html{
       align-items: center;
       justify-content: space-around;
       a:visited {
-        color: white;
+        color: rgb(254, 252, 246);
       }
       a:hover {
         cursor: pointer;
