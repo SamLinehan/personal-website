@@ -22,8 +22,8 @@ html {
     html nav .headLink {
       border-bottom: 1px solid #333d4d;
       cursor: pointer; }
-    html nav .hamburger {
-      display: none; }
+  html .hamburger {
+    display: none; }
   html .headerImage {
     width: 100%;
     height: 60%;
