@@ -1,12 +1,9 @@
-angular.module('portfolio', ['ui.router'])
-  .config(function($stateProvider, $urlRouterProvider){
-    console.log("Hello from Angular")
+$(document).ready(function(){
+  rotateHamburger();
+})
 
-    $urlRouterProvider.otherwise('/home');
-
-    $stateProvider.state('home', {
-      templateUrl: 'index.html',
-      controller: 'HomeController',
-      url: '/home'
-    })
+function rotateHamburger(){
+  $('.hamburger').click(function(){
+    $(this).rotate();
   })
+}

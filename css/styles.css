@@ -1,12 +1,13 @@
 html {
   background-color: #fefcf6;
-  font-family: 'Francois One', sans-serif;
-  letter-spacing: .05em;
+  font-family: 'Arimo', sans-serif;
   color: #333d4d; }
   html body {
     margin-top: 0; }
   html nav {
     display: flex;
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: .05em;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +15,8 @@ html {
     position: fixed;
     width: 100%;
     background-color: #fefcf6; }
+    html nav .hamburger {
+      display: none; }
     @media (max-width: 800px) {
       html nav .hoverLink {
         display: none; }
@@ -68,6 +71,7 @@ html {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 0.9em;
     color: #fefcf6;
     background-color: #333d4d;
     width: 400px;
