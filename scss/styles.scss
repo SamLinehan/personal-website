@@ -55,7 +55,9 @@ html{
         display: none;
       }
       .hamburger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
     }
 
@@ -67,6 +69,25 @@ html{
   }
   .hamburger {
     display: none;
+    cursor: pointer;
+    .showDropDown {
+      display: none;
+      .headDropDown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .dropDownHoverLink {
+      text-decoration: none;
+      color: rgb(51, 61, 77);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a:visited {
+        color: rgb(51, 61, 77);
+      }
+    }
   }
 
   .headerImage {
@@ -119,8 +140,8 @@ html{
         }
       }
       p {
-        color: rgb(254, 252, 246);
-        background-color: rgb(51, 61, 77);
+        // color: rgb(254, 252, 246);
+        // background-color: rgb(51, 61, 77);
         font-size: 0.9em;
         width: 80%;
         align-self: center;

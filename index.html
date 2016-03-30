@@ -11,12 +11,18 @@
   <body>
     <header>
       <nav>
-        <!-- <h1 class="logo">SL</h1> -->
-        <h3 class="hoverLink"><a href="#about">About</a></h3>
-        <h3 class="hoverLink"><a href="#portfolio">Portfolio</a></h3>
-        <h3 class="hoverLink"><a href="#contact">Contact</a></h3>
+          <h3 class="hoverLink"><a href="#about">About</a></h3>
+          <h3 class="hoverLink"><a href="#portfolio">Portfolio</a></h3>
+          <h3 class="hoverLink"><a href="#contact">Contact</a></h3>
         <div class="hamburger">
-          <i class="fa fa-bars fa-2x"></i>
+          <i class="fa fa-bars fa-2x hamElement"></i>
+          <div class="show showDropDown">
+            <div class="headDropDown">
+              <h3 class="dropDownHoverLink"><a href="#about">About</a></h3>
+              <h3 class="dropDownHoverLink"><a href="#portfolio">Portfolio</a></h3>
+              <h3 class="dropDownHoverLink"><a href="#contact">Contact</a></h3>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -46,9 +52,9 @@
             <p>Technologies Used: SASS, Socket.io, Node.js, Ionic, ngCordova, Python, Flask, MongoDB</p>
             <p>Description: A mobile event app that allows users to join the event they are attending and interact with other eventers in live time.</p>
             <div>
-              <a href="https://github.com/SamLinehan/capstone-project"><i class="fa fa-github fa-3x"></i></a>
-              <a href=""><i class="fa fa-youtube fa-3x"></i></a>
-              <a href="https://linehan-capstone.firebaseapp.com/#/home"><i class="fa fa-mobile fa-3x"></i></a>
+              <a href="https://github.com/SamLinehan/capstone-project" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+              <a href="" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+              <a href="https://linehan-capstone.firebaseapp.com/#/home" target="_blank"><i class="fa fa-mobile fa-3x"></i></a>
             </div>
           </article>
           <img class="projectElement" src="./Images/evently2.png" alt="Evently" />
@@ -60,9 +66,9 @@
               <p>Technologies Used: AngularJS, D3.js, Python, Flask, PostgreSql</p>
               <p>Description: A representation of a portion of the tree of life. This app uses D3.js and Angular to create an interactive radial dendrogram.</p>
               <div>
-                <a href="https://github.com/TelegraphMoarInterstices"><i class="fa fa-github fa-3x"></i></a>
-                <a href="https://youtu.be/T4xbB5wgabg"><i class="fa fa-youtube fa-3x"></i></a>
-                <a href="https://twig-of-life.firebaseapp.com/#/"><i class="fa fa-desktop fa-3x"></i></a>
+                <a href="https://github.com/TelegraphMoarInterstices" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+                <a href="https://youtu.be/T4xbB5wgabg" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+                <a href="https://twig-of-life.firebaseapp.com/#/" target="_blank"><i class="fa fa-desktop fa-3x"></i></a>
               </div>
               <a class="detailLink" href="#">See more information on Twig of Life</a>
           </article>
@@ -73,9 +79,9 @@
             <p>Technologies Used: SASS, Bootstrap, jQuery, Yahoo Finance API, Node.js, PostgreSql, Gulp.js</p>
             <p>Description: Stock Kings is a game that simulates the stock market in real time. Using Yahoo's Finance API, players are allowed to make trades throughout the day and monitor their performance against other players.</p>
             <div>
-              <a href="https://github.com/rostonn/fe_stock_kings"><i class="fa fa-github fa-3x"></i></a>
-              <a href="https://youtu.be/JUOCFfqog7Q"><i class="fa fa-youtube fa-3x"></i></a>
-              <a href="https://stock-kings.firebaseapp.com/"><i class="fa fa-desktop fa-3x"></i></a>
+              <a href="https://github.com/SamLinehan/fe_stock_kings" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+              <a href="https://youtu.be/JUOCFfqog7Q" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+              <a href="https://stock-kings.firebaseapp.com/" target="_blank"><i class="fa fa-desktop fa-3x"></i></a>
             </div>
             <a class="detailLink" href="#">See more information on Stock Kings</a>
           </article>
@@ -88,9 +94,9 @@
             <p>Technologies Used: SASS, jQuery, Star API</p>
             <p>Description: The Dark Star Project is a web app that gives users information about the stars in our galaxy, such as distance from our own sun and how many exo-planets orbit that sun.</p>
             <div>
-              <a href="https://github.com/SamLinehan/front_end_project"><i class="fa fa-github fa-3x"></i></a>
-              <a href="https://youtu.be/LUcvriXSU4U"><i class="fa fa-youtube fa-3x"></i></a>
-              <a href="https://dsproject.firebaseapp.com/"><i class="fa fa-desktop fa-3x"></i></a>
+              <a href="https://github.com/SamLinehan/front_end_project" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+              <a href="https://youtu.be/LUcvriXSU4U" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+              <a href="https://dsproject.firebaseapp.com/" target="_blank"><i class="fa fa-desktop fa-3x"></i></a>
             </div>
             <a class="detailLink" href="#">See more information on the Dark Star Project</a>
           </article>
@@ -108,5 +114,7 @@
     <footer></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
     <script src="./app/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.js"></script>
   </body>
 </html>

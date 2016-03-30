@@ -42,12 +42,29 @@ html {
       html nav .hoverLink {
         display: none; }
       html nav .hamburger {
-        display: block; } }
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     html nav .headLink {
       border-bottom: 1px solid #333d4d;
       cursor: pointer; }
   html .hamburger {
-    display: none; }
+    display: none;
+    cursor: pointer; }
+    html .hamburger .showDropDown {
+      display: none; }
+      html .hamburger .showDropDown .headDropDown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+    html .hamburger .dropDownHoverLink {
+      text-decoration: none;
+      color: #333d4d;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html .hamburger .dropDownHoverLink a:visited {
+        color: #333d4d; }
   html .headerImage {
     width: 100%;
     height: 60%;
@@ -90,8 +107,6 @@ html {
         width: 130px;
         border-radius: 65px; }
     html .about div p {
-      color: #fefcf6;
-      background-color: #333d4d;
       font-size: 0.9em;
       width: 80%;
       align-self: center; }

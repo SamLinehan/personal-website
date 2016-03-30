@@ -1,10 +1,28 @@
 $(document).ready(function(){
   rotateHamburger();
+  dropDown();
+  $('.hoverLink').localScroll({duration:500});
+  $('.dropDownHoverLink').localScroll({duration:500});
 })
 
 function rotateHamburger(){
   $('.hamburger').click(function(){
-    $(this).rotate();
+    $('.hamElement').rotate({count:1, duration:0.3});
+  })
+}
+
+function dropDown(){
+  $('.hamburger').click(function(){
+    if($('.show').hasClass('showDropDown')){
+      $('.show').slideUp(400, function(){
+        console.log("up complete");
+      })
+    } else {
+      $('.show').slideDown(400, function(){
+        console.log("down animation")
+      })
+    }
+    $('.show').toggleClass("showDropDown");
   })
 }
 
