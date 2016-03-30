@@ -10,7 +10,7 @@ html{
   font-family: 'Arimo', sans-serif;
   color: rgb(51, 61, 77);
   body{
-    margin-top: 0;
+    margin: 0;
   }
   nav {
     display: flex;
@@ -23,6 +23,30 @@ html{
     position: fixed;
     width: 100%;
     background-color: rgb(254, 252, 246);
+    .hoverLink > a {
+      position: relative;
+      text-decoration: none;
+      color: rgb(51, 61, 77);
+    }
+    .hoverLink > a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .hoverLink > a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
     .hamburger {
       display: none;
     }
@@ -34,13 +58,7 @@ html{
         display: block;
       }
     }
-    // .logo{
-    //   background-color: rgb(51, 61, 77);
-    //   color: rgb(254, 252, 246);
-    //   width: 3%;
-    //   height: 100%;
-    //   border-radius: 50%;
-    // }
+
     .headLink {
       // border-bottom: 1px solid white;
       border-bottom: 1px solid rgb(51, 61, 77);
@@ -66,13 +84,48 @@ html{
       display: flex;
       flex-direction: column;
       align-items: center;
+      h3 {
+        margin-top: 0px;
+      }
     }
   }
+
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
 
   main {
     height: 1000px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .about {
+    div {
+      display: flex;
+      flex-direction: column;
+      div {
+        height: 130px;
+        width: 130px;
+        border-radius: 65px;
+        align-self: center;
+        img {
+          height: 130px;
+          width: 130px;
+          border-radius: 65px;
+        }
+      }
+      p {
+        color: rgb(254, 252, 246);
+        background-color: rgb(51, 61, 77);
+        font-size: 0.9em;
+        width: 80%;
+        align-self: center;
+      }
+    }
   }
 
   .projectSection {
@@ -87,7 +140,8 @@ html{
     @media(max-width: 1050px){
       .projectInfo {
         width: 100%;
-        border-bottom: 2px solid white;
+        border-bottom: 3px solid white;
+        font-size: 1.0em;
         .detailLink {
           display: block;
         }
@@ -140,9 +194,15 @@ html{
     box-sizing: border-box;
   }
 
-  img{
+  img {
     width: 400px;
     height: 400px;
     box-sizing: border-box;
+  }
+
+  .contact {
+    a:visited {
+      color: rgb(51, 61, 77);
+    }
   }
 }

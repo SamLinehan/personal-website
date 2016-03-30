@@ -5,16 +5,16 @@
     <title>Sam Linehan</title>
     <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <nav>
         <!-- <h1 class="logo">SL</h1> -->
-        <h3 class="hoverLink">About</h3>
-        <h3 class="hoverLink">Portfolio</h3>
-        <h3 class="hoverLink">Contact</h3>
+        <h3 class="hoverLink"><a href="#about">About</a></h3>
+        <h3 class="hoverLink"><a href="#portfolio">Portfolio</a></h3>
+        <h3 class="hoverLink"><a href="#contact">Contact</a></h3>
         <div class="hamburger">
           <i class="fa fa-bars fa-2x"></i>
         </div>
@@ -23,19 +23,27 @@
     <div class="headerImage">
       <div>
         <h1>Sam Linehan</h1>
-        <h3>Full-Stack Web Developer</h3>
+        <h3>Full Stack Web Developer</h3>
       </div>
     </div>
     <main>
+      <a class="anchor" name="about"></a>
       <section class="about">
         <h2>About</h2>
+        <div>
+          <div>
+            <img src="./Images/profile.png" alt="Sam" />
+          </div>
+          <p>Hey all!</p>
+        </div>
       </section>
       <section id="#portfolio" class="projectSection">
+        <a class="anchor" name="portfolio"></a>
         <h2>Portfolio</h2>
         <div class="project">
           <article class="projectInfo projectElement">
             <h3>Evently</h3>
-            <p>Technologies Used: HTML, CSS, SASS, JavaScript, Web Sockets, Node.js, Ionic, ngCordova, Python, Flask, MongoDB</p>
+            <p>Technologies Used: SASS, Socket.io, Node.js, Ionic, ngCordova, Python, Flask, MongoDB</p>
             <p>Description: A mobile event app that allows users to join the event they are attending and interact with other eventers in live time.</p>
             <div>
               <a href="https://github.com/SamLinehan/capstone-project"><i class="fa fa-github fa-3x"></i></a>
@@ -49,10 +57,10 @@
           <img class="projectElement" src="./Images/TOL.png" alt="Twig of Life Image" />
           <article class="projectInfo projectElement">
               <h3>Twig of Life</h3>
-              <p>Technologies Used: HTML, CSS, JavaScript, AngularJS, D3.js, Python, Flask, PostgreSql</p>
+              <p>Technologies Used: AngularJS, D3.js, Python, Flask, PostgreSql</p>
               <p>Description: A representation of a portion of the tree of life. This app uses D3.js and Angular to create an interactive radial dendrogram.</p>
               <div>
-                <a href="https://github.com/SamLinehan/capstone-project"><i class="fa fa-github fa-3x"></i></a>
+                <a href="https://github.com/TelegraphMoarInterstices"><i class="fa fa-github fa-3x"></i></a>
                 <a href="https://youtu.be/T4xbB5wgabg"><i class="fa fa-youtube fa-3x"></i></a>
                 <a href="https://twig-of-life.firebaseapp.com/#/"><i class="fa fa-desktop fa-3x"></i></a>
               </div>
@@ -62,7 +70,7 @@
         <div class="project">
           <article class="projectInfo projectElement">
             <h3>Stock Kings</h3>
-            <p>Technologies Used: HTML, SASS, CSS, Bootstrap, JavaScript, jQuery, AJAX, Node.js, PostgreSql, Gulp.js</p>
+            <p>Technologies Used: SASS, Bootstrap, jQuery, Yahoo Finance API, Node.js, PostgreSql, Gulp.js</p>
             <p>Description: Stock Kings is a game that simulates the stock market in real time. Using Yahoo's Finance API, players are allowed to make trades throughout the day and monitor their performance against other players.</p>
             <div>
               <a href="https://github.com/rostonn/fe_stock_kings"><i class="fa fa-github fa-3x"></i></a>
@@ -77,7 +85,7 @@
           <img class="projectElement" src="./Images/DSP.png" alt="Dark Star Project" />
           <article class="projectInfo projectElement">
             <h3>Dark Star Project</h3>
-            <p>Technologies Used: HTML, CSS, SASS, JavaScript, jQuery, AJAX</p>
+            <p>Technologies Used: SASS, jQuery, Star API</p>
             <p>Description: The Dark Star Project is a web app that gives users information about the stars in our galaxy, such as distance from our own sun and how many exo-planets orbit that sun.</p>
             <div>
               <a href="https://github.com/SamLinehan/front_end_project"><i class="fa fa-github fa-3x"></i></a>
@@ -89,6 +97,7 @@
         </div>
       </section>
       <section class="contact">
+        <a class="anchor" name="contact"></a>
         <h2>Contact</h2>
         <p><strong>Sam Linehan</strong></p>
         <p>Austin, Texas 78704</p>
