@@ -5,6 +5,7 @@ html {
   html body {
     margin: 0; }
   html nav {
+    opacity: 0.96;
     display: flex;
     font-family: 'Francois One', sans-serif;
     letter-spacing: .05em;
