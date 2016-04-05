@@ -1,6 +1,7 @@
 $(document).ready(function(){
   rotateHamburger();
   dropDown();
+
   $('.hoverLink').localScroll({duration:500});
   $('.dropDownHoverLink').localScroll({duration:500});
 })
@@ -15,16 +16,15 @@ function dropDown(){
   $('.hamburger').click(function(){
     if($('.show').hasClass('showDropDown')){
       $('.show').slideUp(400, function(){
-        console.log("up complete");
-      })
+      });
     } else {
-      $('.show').slideDown(400, function(){
-        console.log("down animation")
-      })
+        $('.show').slideDown(400, function(){
+      });
     }
     $('.show').toggleClass("showDropDown");
   })
 }
+
 
 /* Animation code from jQuery-Rotate-Plugin v0.2 by anatol.at
 http://jsfiddle.net/Anatol/T6kDR/ */

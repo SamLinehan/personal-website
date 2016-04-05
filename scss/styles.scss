@@ -5,11 +5,14 @@
   display: block;
 }
 
-html{
-  background-color: rgb(254, 252, 246);
+$html-background-color: hsl(45, 80%, 98%);
+// $html-font-color:
+
+html {
+  background-color: $html-background-color;
   font-family: 'Arimo', sans-serif;
   color: rgb(51, 61, 77);
-  body{
+  body {
     margin: 0;
   }
   nav {
@@ -51,7 +54,7 @@ html{
     .hamburger {
       display: none;
     }
-    @media(max-width: 800px){
+    @media(max-width: 800px) {
       .hoverLink {
         display: none;
       }
@@ -85,9 +88,6 @@ html{
       display: flex;
       flex-direction: column;
       align-items: center;
-      a:visited {
-        color: rgb(51, 61, 77);
-      }
     }
   }
 
@@ -143,7 +143,7 @@ html{
       p {
         // color: rgb(254, 252, 246);
         // background-color: rgb(51, 61, 77);
-        font-size: 0.9em;
+        font-size: 1.0em;
         width: 80%;
         align-self: center;
       }
@@ -187,20 +187,23 @@ html{
     width: 400px;
     height: 400px;
     box-sizing: border-box;
+    .mobileDisclaimer {
+      text-align: center;
+    }
     .detailLink {
       display: none;
       text-decoration: none;
     }
-    .detailLink:visited {
+    .detailLink {
       color: rgb(254, 252, 246);
     }
-    div{
+    div {
       display: flex;
       height: 150px;
       width: 300px;
       align-items: center;
       justify-content: space-around;
-      a:visited {
+      a {
         color: rgb(254, 252, 246);
       }
       a:hover {
@@ -223,7 +226,7 @@ html{
   }
 
   .contact {
-    a:visited {
+    a {
       color: rgb(51, 61, 77);
     }
   }

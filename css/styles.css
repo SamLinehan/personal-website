@@ -64,8 +64,6 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      html .hamburger .dropDownHoverLink a:visited {
-        color: #333d4d; }
   html .headerImage {
     width: 100%;
     height: 60%;
@@ -108,7 +106,7 @@ html {
         width: 130px;
         border-radius: 65px; }
     html .about div p {
-      font-size: 0.9em;
+      font-size: 1.0em;
       width: 80%;
       align-self: center; }
   html .projectSection {
@@ -140,10 +138,12 @@ html {
     width: 400px;
     height: 400px;
     box-sizing: border-box; }
+    html .projectInfo .mobileDisclaimer {
+      text-align: center; }
     html .projectInfo .detailLink {
       display: none;
       text-decoration: none; }
-    html .projectInfo .detailLink:visited {
+    html .projectInfo .detailLink {
       color: #fefcf6; }
     html .projectInfo div {
       display: flex;
@@ -151,7 +151,7 @@ html {
       width: 300px;
       align-items: center;
       justify-content: space-around; }
-      html .projectInfo div a:visited {
+      html .projectInfo div a {
         color: #fefcf6; }
       html .projectInfo div a:hover {
         cursor: pointer;
@@ -164,7 +164,7 @@ html {
     width: 400px;
     height: 400px;
     box-sizing: border-box; }
-  html .contact a:visited {
+  html .contact a {
     color: #333d4d; }
 
 /*# sourceMappingURL=styles.css.map */
