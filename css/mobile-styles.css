@@ -1,4 +1,34 @@
-.projectInfo h3 {
-  color: red; }
+html nav .hoverLink {
+  display: none; }
+html nav .hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+html main {
+  margin-left: 5%;
+  margin-right: 5%; }
+  html main .about h1 {
+    font-size: 60px; }
+  html main .about div {
+    display: flex;
+    flex-direction: column; }
+    html main .about div p {
+      font-size: 40px; }
+    html main .about div div {
+      height: 500px;
+      width: 500px;
+      border-radius: 250px; }
+      html main .about div div img {
+        height: 500px;
+        width: 500px;
+        border-radius: 250px; }
+  html main .projectSection h1 {
+    font-size: 60px; }
+  html main .projectInfo {
+    height: 800px; }
+    html main .projectInfo h3 {
+      font-size: 40px; }
+    html main .projectInfo p {
+      font-size: 2.0em; }
 
 /*# sourceMappingURL=mobile-styles.css.map */

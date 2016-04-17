@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 function rotateHamburger(){
   $('.hamburger').click(function(){
-    $('.hamElement').rotate({count:1, duration:0.3});
+    $('.hamElement').rotate({count:1, duration:0.4});
   })
 }
 
