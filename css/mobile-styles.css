@@ -16,11 +16,13 @@ html nav .mobileHamburger {
       font-size: 40px; }
 html .headerImage {
   width: 100%;
-  height: 1000px;
+  height: 1800px;
   background-image: url("../Images/mobile_ocean_pic.png");
+  background-size: 150%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 0; }
   html .headerImage div {
     padding-top: 0;
     color: #fefcf6;
@@ -28,10 +30,12 @@ html .headerImage {
     flex-direction: column;
     align-items: center; }
     html .headerImage div h1 {
-      font-size: 70px; }
+      font-size: 70px;
+      text-shadow: 1px 1px 3px #333d4d; }
     html .headerImage div h3 {
       font-size: 60px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      text-shadow: 1px 1px 3px #333d4d; }
 html main {
   margin-left: 5%;
   margin-right: 5%; }
