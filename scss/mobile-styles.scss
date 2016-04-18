@@ -1,12 +1,57 @@
+// @mixin responsive-bg-image($image-width, $image-height) {
+//   background-size: 100%;
+//   height: 0;
+//   padding-bottom: percentage($image-height / $image-width);
+//   display: block;
+// }
+
 html {
   nav {
     .hoverLink {
       display: none;
     }
     .hamburger {
+      display: none;
+    }
+    .mobileHamburger {
       display: flex;
       flex-direction: column;
       align-items: center;
+      .showDropDown {
+        display: none;
+      }
+      .headDropDown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  .headerImage {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../Images/mobile_ocean_pic.png');
+    // background-repeat: no-repeat;
+    // @include responsive-bg-image(204, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      padding-top: 0;
+      color: rgb(254, 252, 246);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-size: 70px;
+      }
+      h3 {
+        font-size: 60px;
+        margin-top: 0px;
+      }
     }
   }
   main {

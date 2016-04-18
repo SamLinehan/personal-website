@@ -54,6 +54,10 @@ html {
     .hamburger {
       display: none;
     }
+    .mobileHamburger {
+      display: none;
+    }
+
     @media(max-width: 800px) {
       .hoverLink {
         display: none;

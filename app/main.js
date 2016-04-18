@@ -9,11 +9,24 @@ $(document).ready(function(){
 function rotateHamburger(){
   $('.hamburger').click(function(){
     $('.hamElement').rotate({count:1, duration:0.4});
-  })
+  });
+  $('.mobileHamburger').click(function(){
+    $('.hamElement').rotate({count:1, duration:0.4});
+  });
 }
 
 function dropDown(){
   $('.hamburger').click(function(){
+    if($('.show').hasClass('showDropDown')){
+      $('.show').slideUp(400, function(){
+      });
+    } else {
+        $('.show').slideDown(400, function(){
+      });
+    }
+    $('.show').toggleClass("showDropDown");
+  });
+  $('.mobileHamburger').click(function(){
     if($('.show').hasClass('showDropDown')){
       $('.show').slideUp(400, function(){
       });

@@ -39,6 +39,8 @@ html {
       transform: scaleX(1); }
     html nav .hamburger {
       display: none; }
+    html nav .mobileHamburger {
+      display: none; }
     @media (max-width: 800px) {
       html nav .hoverLink {
         display: none; }

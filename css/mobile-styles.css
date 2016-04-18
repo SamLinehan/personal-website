@@ -1,9 +1,37 @@
 html nav .hoverLink {
   display: none; }
 html nav .hamburger {
+  display: none; }
+html nav .mobileHamburger {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  html nav .mobileHamburger .showDropDown {
+    display: none; }
+  html nav .mobileHamburger .headDropDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    html nav .mobileHamburger .headDropDown h1 {
+      font-size: 40px; }
+html .headerImage {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../Images/mobile_ocean_pic.png");
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  html .headerImage div {
+    padding-top: 0;
+    color: #fefcf6;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    html .headerImage div h1 {
+      font-size: 70px; }
+    html .headerImage div h3 {
+      font-size: 60px;
+      margin-top: 0px; }
 html main {
   margin-left: 5%;
   margin-right: 5%; }
