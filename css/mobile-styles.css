@@ -1,87 +1,87 @@
-html nav .hoverLink {
-  display: none; }
-html nav .hamburger {
-  display: none; }
-html nav .mobileHamburger {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  html nav .mobileHamburger .showDropDown {
+html {
+  font-family: 'Open Sans', sans-serif; }
+  html nav .hoverLink {
     display: none; }
-  html nav .mobileHamburger .headDropDown {
+  html nav .hamburger {
+    display: none; }
+  html nav .mobileHamburger {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    html nav .mobileHamburger .headDropDown h1 {
-      font-size: 40px; }
-html .headerImage {
-  width: 100%;
-  height: 1800px;
-  background-image: url("../Images/mobile_ocean_pic.png");
-  background-size: 150%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0; }
-  html .headerImage div {
-    padding-top: 0;
-    color: #fefcf6;
+    html nav .mobileHamburger .showDropDown {
+      display: none; }
+    html nav .mobileHamburger .headDropDown {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html nav .mobileHamburger .headDropDown h1 {
+        font-size: 40px; }
+  html .headerImage {
+    width: 100%;
+    height: 1800px;
+    background-image: url("../Images/mobile_ocean_pic.png");
+    background-size: 150%;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
-    html .headerImage div h1 {
-      font-size: 70px;
-      text-shadow: 1px 1px 3px #333d4d; }
-    html .headerImage div h3 {
-      font-size: 60px;
-      margin-top: 0px;
-      text-shadow: 1px 1px 3px #333d4d; }
-html main {
-  margin-left: 5%;
-  margin-right: 5%; }
-  html main .about h1 {
-    font-size: 60px; }
-  html main .about div {
-    display: flex;
-    flex-direction: column; }
-    html main .about div p {
-      font-size: 40px; }
-    html main .about div div {
-      height: 500px;
-      width: 500px;
-      border-radius: 250px; }
-      html main .about div div img {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0; }
+    html .headerImage div {
+      padding-top: 0;
+      color: #fefcf6;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html .headerImage div h1 {
+        font-size: 70px; }
+      html .headerImage div h3 {
+        font-size: 60px;
+        margin-top: 0px; }
+  html main {
+    margin-left: 5%;
+    margin-right: 5%; }
+    html main .about h1 {
+      font-size: 60px; }
+    html main .about div {
+      display: flex;
+      flex-direction: column; }
+      html main .about div p {
+        font-size: 40px; }
+      html main .about div div {
         height: 500px;
         width: 500px;
         border-radius: 250px; }
-  html main .projectSection h1 {
-    font-size: 60px; }
-  html main .projectInfo {
-    height: 800px; }
-    html main .projectInfo h3 {
+        html main .about div div img {
+          height: 500px;
+          width: 500px;
+          border-radius: 250px; }
+    html main .projectSection h1 {
+      font-size: 60px; }
+    html main .projectInfo {
+      height: 800px; }
+      html main .projectInfo h3 {
+        font-size: 40px; }
+      html main .projectInfo p {
+        font-size: 2.2em; }
+      html main .projectInfo .mobileDisclaimer {
+        display: none; }
+      html main .projectInfo .topInfo {
+        margin-right: 45px; }
+      html main .projectInfo .mobileIcons {
+        display: flex;
+        height: 150px;
+        width: 450px;
+        align-items: center;
+        justify-content: space-between; }
+        html main .projectInfo .mobileIcons a {
+          color: #fefcf6; }
+        html main .projectInfo .mobileIcons a:hover {
+          cursor: pointer;
+          opacity: 0.5; }
+      html main .projectInfo .desktopIcons {
+        display: none; }
+    html main .contact h1 {
+      font-size: 70px; }
+    html main .contact p {
       font-size: 40px; }
-    html main .projectInfo p {
-      font-size: 2.2em; }
-    html main .projectInfo .mobileDisclaimer {
-      display: none; }
-    html main .projectInfo .topInfo {
-      margin-right: 45px; }
-    html main .projectInfo .mobileIcons {
-      display: flex;
-      height: 150px;
-      width: 450px;
-      align-items: center;
-      justify-content: space-between; }
-      html main .projectInfo .mobileIcons a {
-        color: #fefcf6; }
-      html main .projectInfo .mobileIcons a:hover {
-        cursor: pointer;
-        opacity: 0.5; }
-    html main .projectInfo .desktopIcons {
-      display: none; }
-  html main .contact h1 {
-    font-size: 70px; }
-  html main .contact p {
-    font-size: 40px; }
 
 /*# sourceMappingURL=mobile-styles.css.map */

@@ -1,4 +1,5 @@
 html {
+  font-family: 'Open Sans', sans-serif;
   nav {
     .hoverLink {
       display: none;
@@ -40,12 +41,10 @@ html {
       align-items: center;
       h1 {
         font-size: 70px;
-        text-shadow: 1px 1px 3px rgb(51, 61, 77);
       }
       h3 {
         font-size: 60px;
         margin-top: 0px;
-        text-shadow: 1px 1px 3px rgb(51, 61, 77);
       }
     }
   }
