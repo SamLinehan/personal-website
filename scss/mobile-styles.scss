@@ -86,7 +86,38 @@ html {
         font-size: 40px;
       }
       p {
-        font-size: 2.0em;
+        font-size: 2.2em;
+      }
+      .mobileDisclaimer {
+        display: none;
+      }
+      .topInfo {
+        margin-right: 45px;
+      }
+      .mobileIcons {
+        display: flex;
+        height: 150px;
+        width: 450px;
+        align-items: center;
+        justify-content: space-between;
+        a {
+          color: rgb(254, 252, 246);
+        }
+        a:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+      .desktopIcons {
+        display: none;
+      }
+    }
+    .contact {
+      h1 {
+        font-size: 70px;
+      }
+      p {
+        font-size: 40px;
       }
     }
   }

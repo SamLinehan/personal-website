@@ -61,6 +61,27 @@ html main {
     html main .projectInfo h3 {
       font-size: 40px; }
     html main .projectInfo p {
-      font-size: 2.0em; }
+      font-size: 2.2em; }
+    html main .projectInfo .mobileDisclaimer {
+      display: none; }
+    html main .projectInfo .topInfo {
+      margin-right: 45px; }
+    html main .projectInfo .mobileIcons {
+      display: flex;
+      height: 150px;
+      width: 450px;
+      align-items: center;
+      justify-content: space-between; }
+      html main .projectInfo .mobileIcons a {
+        color: #fefcf6; }
+      html main .projectInfo .mobileIcons a:hover {
+        cursor: pointer;
+        opacity: 0.5; }
+    html main .projectInfo .desktopIcons {
+      display: none; }
+  html main .contact h1 {
+    font-size: 70px; }
+  html main .contact p {
+    font-size: 40px; }
 
 /*# sourceMappingURL=mobile-styles.css.map */

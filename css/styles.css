@@ -142,20 +142,24 @@ html {
     box-sizing: border-box; }
     html .projectInfo .mobileDisclaimer {
       text-align: center; }
+    html .projectInfo .mobileIcons {
+      display: none; }
     html .projectInfo .detailLink {
       display: none;
       text-decoration: none; }
     html .projectInfo .detailLink {
       color: #fefcf6; }
-    html .projectInfo div {
+    html .projectInfo .topInfo {
+      margin-right: 25px; }
+    html .projectInfo .desktopIcons {
       display: flex;
       height: 150px;
       width: 300px;
       align-items: center;
       justify-content: space-around; }
-      html .projectInfo div a {
+      html .projectInfo .desktopIcons a {
         color: #fefcf6; }
-      html .projectInfo div a:hover {
+      html .projectInfo .desktopIcons a:hover {
         cursor: pointer;
         opacity: 0.5; }
   html .projectElement {

@@ -194,6 +194,9 @@ html {
     .mobileDisclaimer {
       text-align: center;
     }
+    .mobileIcons {
+      display: none;
+    }
     .detailLink {
       display: none;
       text-decoration: none;
@@ -201,7 +204,10 @@ html {
     .detailLink {
       color: rgb(254, 252, 246);
     }
-    div {
+    .topInfo {
+      margin-right: 25px;
+    }
+    .desktopIcons {
       display: flex;
       height: 150px;
       width: 300px;
