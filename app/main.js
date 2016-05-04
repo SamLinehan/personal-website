@@ -1,6 +1,7 @@
 $(document).ready(function(){
   rotateHamburger();
   dropDown();
+  typingEffect();
 
   $('.hoverLink').localScroll({duration:500});
   $('.dropDownHoverLink').localScroll({duration:500});
@@ -36,6 +37,13 @@ function dropDown(){
     }
     $('.show').toggleClass("showDropDown");
   })
+}
+
+function typingEffect(){
+  $(".typing").typed({
+    strings: ["^1000 Sam Linehan", "^2000 Full Stack Developer"],
+    typeSpeed: 0,
+  });
 }
 
 

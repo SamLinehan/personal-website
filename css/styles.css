@@ -10,12 +10,16 @@ html {
     font-family: 'Francois One', sans-serif;
     letter-spacing: .05em;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #333d4d;
     position: fixed;
     width: 100%;
     background-color: #fefcf6; }
+    html nav div {
+      display: flex;
+      width: 50%;
+      justify-content: space-around; }
     html nav .hoverLink > a {
       position: relative;
       text-decoration: none;
@@ -68,10 +72,10 @@ html {
       align-items: center; }
   html .headerImage {
     width: 100%;
-    height: 60%;
+    height: 80%;
     background-image: url("../Images/new_ocean_pic.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
     height: 0;
     padding-bottom: 39.70588%;
     display: block;
@@ -97,19 +101,19 @@ html {
     margin-right: 10%; }
   html .about div {
     display: flex;
-    flex-direction: column; }
+    justify-content: space-around; }
     html .about div div {
-      height: 130px;
-      width: 130px;
-      border-radius: 65px;
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
       align-self: center; }
       html .about div div img {
-        height: 130px;
-        width: 130px;
-        border-radius: 65px; }
+        height: 200px;
+        width: 200px;
+        border-radius: 100px; }
     html .about div p {
-      font-size: 1.0em;
-      width: 80%;
+      font-size: 1.2em;
+      width: 60%;
       align-self: center; }
   html .projectSection {
     color: #333d4d;

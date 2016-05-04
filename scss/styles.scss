@@ -1,5 +1,5 @@
 @mixin responsive-bg-image($image-width, $image-height) {
-  background-size: 100%;
+  background-size: 120%;
   height: 0;
   padding-bottom: percentage($image-height / $image-width);
   display: block;
@@ -21,12 +21,17 @@ html {
     font-family: 'Francois One', sans-serif;
     letter-spacing: .05em;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgb(51, 61, 77);
     position: fixed;
     width: 100%;
     background-color: rgb(254, 252, 246);
+    div {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+    }
     .hoverLink > a {
       position: relative;
       text-decoration: none;
@@ -97,7 +102,7 @@ html {
 
   .headerImage {
     width: 100%;
-    height: 60%;
+    height: 80%;
     background-image: url('../Images/new_ocean_pic.png');
     background-repeat: no-repeat;
     @include responsive-bg-image(204, 81);
@@ -132,23 +137,22 @@ html {
   .about {
     div {
       display: flex;
-      flex-direction: column;
+      justify-content: space-around;
       div {
-        height: 130px;
-        width: 130px;
-        border-radius: 65px;
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
         align-self: center;
         img {
-          height: 130px;
-          width: 130px;
-          border-radius: 65px;
+          height: 200px;
+          width: 200px;
+          border-radius: 100px;
         }
       }
       p {
-        // color: rgb(254, 252, 246);
-        // background-color: rgb(51, 61, 77);
-        font-size: 1.0em;
-        width: 80%;
+
+        font-size: 1.2em;
+        width: 60%;
         align-self: center;
       }
     }
