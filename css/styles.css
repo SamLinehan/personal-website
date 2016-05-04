@@ -16,6 +16,8 @@ html {
     position: fixed;
     width: 100%;
     background-color: #fefcf6; }
+    html nav h1 {
+      margin-left: 3%; }
     html nav div {
       display: flex;
       width: 50%;
