@@ -41,8 +41,9 @@ function dropDown(){
 
 function typingEffect(){
   $(".typing").typed({
-    strings: ["^1000 Sam Linehan", "^2000 Full Stack Developer"],
+    strings: ["^1000 Hello", "^1500 Welcome to my Personal Website", "Sam Linehan", "^2000 Full Stack Developer"],
     typeSpeed: 0,
+    showCursor: false
   });
 }
 

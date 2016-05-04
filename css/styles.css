@@ -3,7 +3,8 @@ html {
   font-family: 'Arimo', sans-serif;
   color: #333d4d; }
   html body {
-    margin: 0; }
+    margin: 0;
+    position: relative; }
   html nav {
     opacity: 0.96;
     display: flex;
@@ -75,6 +76,7 @@ html {
   html .headerImage {
     width: 100%;
     height: 80%;
+    overflow: hidden;
     background-image: url("../Images/new_ocean_pic.png");
     background-repeat: no-repeat;
     background-size: 120%;
@@ -101,25 +103,28 @@ html {
     height: 1000px;
     margin-left: 10%;
     margin-right: 10%; }
-  html .about div {
-    display: flex;
-    justify-content: space-around; }
-    html .about div div {
-      height: 200px;
-      width: 200px;
-      border-radius: 100px;
-      align-self: center; }
-      html .about div div img {
+  html .about {
+    margin-bottom: 10%; }
+    html .about div {
+      display: flex;
+      justify-content: space-around; }
+      html .about div div {
         height: 200px;
         width: 200px;
-        border-radius: 100px; }
-    html .about div p {
-      font-size: 1.2em;
-      width: 60%;
-      align-self: center; }
+        border-radius: 100px;
+        align-self: center; }
+        html .about div div img {
+          height: 200px;
+          width: 200px;
+          border-radius: 100px; }
+      html .about div p {
+        font-size: 1.2em;
+        width: 60%;
+        align-self: center; }
   html .projectSection {
     color: #333d4d;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 10%; }
   html .project {
     display: flex;
     flex-flow: row wrap;
@@ -140,11 +145,11 @@ html {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 0.9em;
+    font-size: 1.1em;
     color: #fefcf6;
     background-color: #333d4d;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     box-sizing: border-box; }
     html .projectInfo .mobileDisclaimer {
       text-align: center; }
@@ -169,14 +174,22 @@ html {
         cursor: pointer;
         opacity: 0.5; }
   html .projectElement {
-    width: 400px;
-    height: 425px;
+    width: 500px;
+    height: 500px;
     box-sizing: border-box; }
   html img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     box-sizing: border-box; }
   html .contact a {
     color: #333d4d; }
+  html .contact footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%; }
+    html .contact footer div {
+      width: 15%;
+      display: flex;
+      justify-content: space-between; }
 
 /*# sourceMappingURL=styles.css.map */
