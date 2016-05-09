@@ -2,6 +2,8 @@ $(document).ready(function(){
   rotateHamburger();
   dropDown();
   typingEffect();
+  imageHover();
+  eventlyClick();
 
   $('.hoverLink').localScroll({duration:500});
   $('.dropDownHoverLink').localScroll({duration:500});
@@ -41,10 +43,28 @@ function dropDown(){
 
 function typingEffect(){
   $(".typing").typed({
-    strings: ["^1000 Hello", "^1500 Welcome to my Personal Website", "Sam Linehan", "^2000 Full Stack Developer"],
+    strings: ["^2000 Hello", "^1500 Welcome to my Personal Website", "^1000 Sam Linehan", "^1000 Full Stack Developer"],
     typeSpeed: 0,
     showCursor: false
   });
+}
+
+function imageHover(){
+  $("img.projectElement").hover(function(){
+    $(this).addClass("imageOpacity");
+  }, function(){
+    $(this).removeClass("imageOpacity");
+  });
+}
+
+function eventlyClick(){
+  $("#eventlyImage").click(function(){
+    console.log("helloooooo")
+    vex.dialog.open({
+      input:
+        "<div><h1>Test modal</h1></div>"
+    })
+  })
 }
 
 
