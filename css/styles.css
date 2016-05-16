@@ -16,7 +16,8 @@ html {
     border-bottom: 2px solid #333d4d;
     position: fixed;
     width: 100%;
-    background-color: #fefcf6; }
+    background-color: #fefcf6;
+    white-space: nowrap; }
     html nav h1 {
       margin-left: 3%; }
     html nav div {

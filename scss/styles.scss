@@ -6,7 +6,6 @@
 }
 
 $html-background-color: hsl(45, 80%, 98%);
-// $html-font-color:
 
 html {
   background-color: $html-background-color;
@@ -28,6 +27,7 @@ html {
     position: fixed;
     width: 100%;
     background-color: rgb(254, 252, 246);
+    white-space: nowrap;
     h1 {
       margin-left: 3%;
     }
