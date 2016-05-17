@@ -246,17 +246,15 @@ html {
     box-sizing: border-box;
   }
 
-  .imageOpacity {
-    opacity: 0.6;
-  }
+  // .imageOpacity {
+  //   opacity: 0.6;
+  // }
 
   .contact {
     a {
       color: rgb(51, 61, 77);
     }
     footer {
-      // background-color: rgb(51, 61, 77);
-      // color: $html-background-color;
       display: flex;
       justify-content: space-around;
       margin-bottom: 5%;

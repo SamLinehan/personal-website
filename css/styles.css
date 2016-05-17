@@ -182,8 +182,6 @@ html {
     width: 500px;
     height: 500px;
     box-sizing: border-box; }
-  html .imageOpacity {
-    opacity: 0.6; }
   html .contact a {
     color: #333d4d; }
   html .contact footer {

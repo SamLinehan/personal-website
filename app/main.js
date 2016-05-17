@@ -60,10 +60,10 @@ function imageHover(){
 function eventlyClick(){
   $("#eventlyImage").click(function(){
     console.log("helloooooo")
-    vex.dialog.open({
-      input:
-        "<div><h1>Test modal</h1></div>"
-    })
+    // vex.dialog.open({
+    //   input:
+    //     "<div><h1>Test modal</h1></div>"
+    // })
   })
 }
 
