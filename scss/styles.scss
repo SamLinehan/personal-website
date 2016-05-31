@@ -246,9 +246,14 @@ html {
     box-sizing: border-box;
   }
 
-  // .imageOpacity {
-  //   opacity: 0.6;
-  // }
+  .imageOpacity {
+    opacity: 0.6;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    cursor: pointer;
+  }
 
   .contact {
     a {

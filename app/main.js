@@ -4,6 +4,9 @@ $(document).ready(function(){
   typingEffect();
   imageHover();
   eventlyClick();
+  twigClick();
+  skClick();
+  dsClick();
 
   $('.hoverLink').localScroll({duration:500});
   $('.dropDownHoverLink').localScroll({duration:500});
@@ -59,11 +62,45 @@ function imageHover(){
 
 function eventlyClick(){
   $("#eventlyImage").click(function(){
-    console.log("helloooooo")
-    // vex.dialog.open({
-    //   input:
-    //     "<div><h1>Test modal</h1></div>"
-    // })
+    vex.dialog.open({
+      input:
+        "<p>A mobile event app that allows users to join the event they are attending and interact with other attendees in real time.  Users search for an event (or create one if it does not exist) and are then directed to that event’s live feed. While on the live feed, users can create a post, read other posts, and select favorite posts.</p>",
+      message:
+        "<div><h1>Test modal</h1></div>"
+    })
+  })
+}
+
+function twigClick() {
+  $("#twigImage").click(function(){
+    vex.dialog.open({
+      input:
+        "",
+      message:
+        ""
+    })
+  })
+}
+
+function skClick(){
+  $("#skImage").click(function(){
+    vex.dialog.open({
+      input:
+        "",
+      message:
+        ""
+    })
+  })
+}
+
+function dsClick(){
+  $("#dsImage").click(function(){
+    vex.dialog.open({
+      input:
+      "",
+      message:
+      ""
+    })
   })
 }
 
